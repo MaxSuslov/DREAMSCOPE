@@ -1,0 +1,142 @@
+
+* {
+	/* margin: 0; */
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	/* text-align: center; */
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+header {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+p {
+	text-align: justify;
+}
+
+.headerpic {
+	max-width: 100%;
+	width: 100%;
+	height: 10%;
+	margin: 1% auto;
+}
+
+.pic {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#solo {
+	margin: 0 auto;
+}
+.duet {
+	max-width: 45%;
+	width: 45%;
+	margin: 0.5%;
+	display: inline-block;
+}
+
+#picleft2 {
+	float: left;
+}
+
+#picright2 {
+	float: right;
+}
+
+.figwrapper {
+	position: absolute;
+}
+
+figure {
+	box-sizing: border-box;
+	padding: 1%;
+	/* position: relative; */
+	margin: 0 auto;
+	overflow: hidden;
+	background: #DCDCDC;
+	text-align: center;
+}
+
+figcaption {
+	font-size: 90%;
+	font-style: italic;
+}
+.clearfix {
+	clear: both;
+}
+
+.trio {
+	max-width: 32%;
+	width: 32%;
+	margin: 0.5%;
+	display: inline-block;
+	float: left;
+	padding: 0 auto;
+}
+
+.quadro {
+	max-width: 45%;
+	width: 24%;
+	margin: 0.5%;
+	display: inline-block;
+	float: left;
+	padding: 0 auto;
+}
+
+blockquote {
+  background: #f7f7f7;
+  border-left: 1px solid #bbb;
+  font-style: italic;
+  margin: 1.5em 0.5%;
+  padding: 0.5em 0.5%;
+  text-align: justify;
+}
+ 
+blockquote:before {
+  color: #bbb;
+  content: "\201C"; 
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -.4em;
+}
+ 
+blockquote:after {
+  color: #bbb;
+  content: "\201D"; 
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -.45em;
+}
+
+footer {
+	margin: 2% auto;
+	border-top: 1px dotted dimgrey;
+}
+
+@media screen and (max-width: 780px) {
+	#quadro-first,
+	#quadro-third {
+		clear: left;
+		float: left;
+		width: 49%;
+	}
+	#quadro-second,
+	#quadro-fourth {
+		clear: right;
+		float: right;
+		width: 49%;
+	}
+}
