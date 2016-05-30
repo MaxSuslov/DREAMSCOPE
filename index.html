@@ -6,12 +6,17 @@
 	<meta name="MobileOptimized" content="320"/>
 	<meta name="HandheldFriendly" content="true"/>
 	<title>Dreamscope</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 <body>
 	<div class="wrapper">
 		<header>
-			<img class="headerpic" src="images/glazcitradelic1.jpg" alt="Header acid TV">
+			<img class="headerpic wow flipInX" src="images/glazcitradelic1.jpg" alt="Header acid TV">
 			<h1>Веб-приложение для создания шедевров из простых фотографий</h1>
 		</header>
 		<hr>
@@ -20,7 +25,7 @@
 			<p>Недавно наткнулся на пост одного моего друга со ссылкой на приложение <a href="https://dreamscopeapp.com" target="_blank">Dreamscope</a>. Хотя по отзывам было понятно, что приложение ещё сырое (<q>buggy</q>), интерес к творчеству превозмог возможное раздражение от недоработок.</p>
 			<p>То, что получилось, меня настолько впечатлило, что следующие 2 часа я провёл, обрабатывая в этой программе свои фотографии и пробуя применять новые эффекты. Ниже одна из фотографий, выглядящая особенно психоделично. В оригинале моё лицо было немного подкрашено флюоресцентной краской, а фоном служило флюрное полотно с красивой репродукцией <a href="http://alexgrey.com" target=_blank>Алекса Грея</a>, гуру такого направления живописи как <a href="https://ru.wikipedia.org/wiki/Виженари_арт" target=_blank>виженари-арт</a>.</p>
 			<figure>
-				<img  class="pic" id="solo" src="images/fullmoon1.jpeg" alt="Pcychodelic effect on portrait">
+				<img  class="pic wow fadeInUp"  data-wow-offset="800" id="solo" src="images/fullmoon1.jpeg" alt="Pcychodelic effect on portrait">
 				<figcaption>Автопортрет на фоне флюоресцентного полотна, обработанный в Dreamscope</figcaption>
 			</figure>
 			<p>В этом приложении можно накладывать эффекты, взятые из стиля живописи именитых мастеров, таких как Ван Гог, Пикассо, Да Винчи, Мунк или Кандинский. Также для любителей измененных состояний сознания есть несколько эффектов, имитирующих восприятие окружающей действительности под влиянием психоактивных веществ, таких как Сальвия Дивинорум или ЛСД, эффекты граффити, акварели и множество других.</p>
@@ -30,7 +35,7 @@
 			</blockquote>
 			<section>
 				<h2>Шедевр одним кликом</h2>
-			<figure id="KL">
+			<figure id="KL" class="wow pulse"  data-wow-offset="600">
 				<figcaption>Ниже представлен пример изображения до и после обработки (эффект "Graffity2"). Фото сделано в Куала-Лумпуре в китайском квартале</figcaption>
 				<img class="duet" id="picleft2" src="images/kltraveller_orig.jpg" alt="Оригинальное фото">
 				<img class="duet"  id="picright2" src="images/kltraveller.jpeg" alt="Обработанное фото">
@@ -38,7 +43,7 @@
 				<div class="clearfix"></div>
 			</section>
 			<p>С помощью подобного приложения можно изготовить аватар для социальных сетей на свой вкус, дружеский шарж для принта на футболке или кружке в качестве подарка на день Рождения, или просто ради интересного эксперимента, чтобы посмотреть, как же будет выглядеть эта фотография именно с этим эффектом. Конечный результат всегда получается неожиданным и впечатляющим, придаёт "изюминку" и творческую остроту даже самым заурядным фотографиям.</p>
-			<figure id="Angkor">
+			<figure id="Angkor" class="wow bounceInUp "  data-wow-offset="200" data-wow-duration="2s">
 				<figcaption>На фото слева направо: оригинал, эффект Vortex Mosaic, эффект Stained Glass. Фото сделано в храмовом комплексе Ангкор-Ват, Камбоджия</figcaption>
 				<img class="trio" id="picleft3" src="images/sator1.jpg" alt="Оригинальное фото">
 				<img class="trio"  id="picmid3" src="images/satorvortexmosaic.jpeg" alt="Обработанное фото">
@@ -51,10 +56,10 @@
 			<p>Закономерно возникает вопрос, а что же скажут на это настоящие художники? Не станет ли новая технология в угоду новоявленным дельцам, штампующим из бездарного ширпотреба произведения современного (или стилизованного под старину) "искусства"? По скромному мнению автора этой статьи, ответ на этот вопрос лежит исключительно в сфере компетенции каждого отдельно взятого художника и его отношения к новым технологиям и своему творческому развитию. Можно воспринимать такой инструмент как угрозу "настоящему" искусству, а можно, наоборот, с энтузиазмом взяться за исследование новых возможностей и рассматривать его как подспорье в нелёгком деле художника, может быть, даже черпать вдохновение и новые идеи из этого подхода.</p>
 			<figure id="4pictures">
 				<figcaption>Ниже представлено ещё несколько примеров изображений, обработанных с помощью Dreamscope</figcaption>
-				<img class="quadro" id="quadro-first" src="images/ma4ta.jpeg" alt="Оригинальное фото">
-				<img class="quadro" id="quadro-second" src="images/maxsvetakacheli.jpeg" alt="Обработанное фото">
-				<img class="quadro" id="quadro-third" src="images/chubakaredgears.jpeg" alt="Оригинальное фото">
-				<img class="quadro" id="quadro-fourth" src="images/kohrin1.jpeg" alt="Обработанное фото">
+				<img class="quadro wow zoomInUp" data-wow-offset="100" data-wow-delay="0.5s" id="quadro-first" src="images/ma4ta.jpeg" alt="Оригинальное фото">
+				<img class="quadro wow zoomInUp" data-wow-offset="100" data-wow-delay="0.8s" id="quadro-second" src="images/maxsvetakacheli.jpeg" alt="Обработанное фото">
+				<img class="quadro wow zoomInUp" data-wow-offset="100" data-wow-delay="1.1s" id="quadro-third" src="images/chubakaredgears.jpeg" alt="Оригинальное фото">
+				<img class="quadro wow zoomInUp" data-wow-offset="100" data-wow-delay="1.4s" id="quadro-fourth" src="images/kohrin1.jpeg" alt="Обработанное фото">
 			</figure>
 				<div class="clearfix"></div>
 			</section>

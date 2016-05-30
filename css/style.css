@@ -10,10 +10,27 @@
 html {
 	font-size: 14px;
 }
+
+body {
+	position: relative;
+}
+
+body::after {
+	content: "";
+	background: url("http://1.bp.blogspot.com/-5DXn7_bsWEQ/VYY95-F7dMI/AAAAAAAAfzk/wCvOJrifGWE/s1600/google_image_recognition_007.jpg");
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
-	
 }
 
 header {
@@ -65,7 +82,7 @@ figure {
 	/* position: relative; */
 	margin: 0 auto;
 	overflow: hidden;
-	background: #DCDCDC;
+	background: rgba(220, 220, 220, .5);
 	text-align: center;
 }
 
