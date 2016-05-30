@@ -9,6 +9,7 @@
 
 html {
 	font-size: 14px;
+	min-width: 320px;
 }
 
 body {
@@ -155,5 +156,11 @@ footer {
 		clear: right;
 		float: right;
 		width: 49%;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-size: 1.2rem;
 	}
 }
