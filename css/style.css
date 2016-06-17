@@ -34,6 +34,8 @@ h1, h2, footer {
 
 .wrapper {
 	width: 80%;
+	height: 100%;
+	padding-bottom: 10%;
 	margin: 0 auto;
 }
 
